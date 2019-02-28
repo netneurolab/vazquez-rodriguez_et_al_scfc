@@ -1,0 +1,54 @@
+{
+  "creators": [
+    {
+      "name": "Vázquez-Rodríguez, Bertha",
+      "affiliation": "McConnell Brain Imaging Centre, Montréal Neurological Institute, McGill University, Montréal, Quebec, Canada"
+    },
+    {
+      "name": "Suárez, L. Estefany",
+      "affiliation": "McConnell Brain Imaging Centre, Montréal Neurological Institute, McGill University, Montréal, Quebec, Canada"
+    },
+    {
+      "name": "Shafiei, Golia",
+      "affiliation": "McConnell Brain Imaging Centre, Montréal Neurological Institute, McGill University, Montréal, Quebec, Canada"
+    },
+    {
+      "name": "Markello, Ross D.",
+      "affiliation": "McConnell Brain Imaging Centre, Montréal Neurological Institute, McGill University, Montréal, Quebec, Canada",
+      "orcid": "0000-0003-1057-1336"
+    },
+    {
+      "name": "Paquola, Casey",
+      "affiliation": "McConnell Brain Imaging Centre, Montréal Neurological Institute, McGill University, Montréal, Quebec, Canada"
+    },
+    {
+      "name": "Hagmann, Patric",
+      "affiliation": "Signal Processing Laboratory (LTS5) Ecole Polytechnique Fédérale de Lausanne, Route Cantonale, 1015 Lausanne, Switzerland"
+    },
+    {
+      "name": "van den Heuvel, Martijn P.",
+      "affiliation": "Center for Neurogenomics and Cognitive Research, Vrije Universiteit Amsterdam, The Netherlands"
+    },
+    {
+      "name": "Bernhardt, Boris C.",
+      "affiliation": "McConnell Brain Imaging Centre, Montréal Neurological Institute, McGill University, Montréal, Quebec, Canada"
+    },
+    {
+      "name": "Spreng, R. Nathan",
+      "affiliation": "McConnell Brain Imaging Centre, Montréal Neurological Institute, McGill University, Montréal, Quebec, Canada"
+    },
+    {
+      "name": "Mišić, Bratislav",
+      "affiliation": "McConnell Brain Imaging Centre, Montréal Neurological Institute, McGill University, Montréal, Quebec, Canada"
+    }
+  ],
+  "description": "Repository containing analysis scripts in support of Vázquez-Rodríguez et al., biorxiv, 2019.",
+  "keywords": [
+    "neuroimaging",
+    "functional connectivity",
+    "structural connectivity"
+  ],
+  "license": "BSD-3-Clause",
+  "upload_type": "software",
+  "access_right": "open"
+}
