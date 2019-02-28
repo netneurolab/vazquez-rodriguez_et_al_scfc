@@ -1,5 +1,7 @@
 # Gradients of structure-function tethering across neocortex
 
+[![DOI](https://zenodo.org/badge/173153146.svg)](https://zenodo.org/badge/latestdoi/173153146)
+
 This repository contains processing scripts in support of the preprint:
 
 Vázquez-Rodríguez, B., Suárez, L. E., Shafiei, G., Markello, R. D., Paquola, C., Hagmann, P., van den Heuvel, M. P., Bernhardt, B. C., Spreng, R. N., Mišić, B. (2019). Gradients of structure-function tethering across neocortex. *bioRxiv*, 561985. [https://doi.org/10.1101/561985](https://doi.org/10.1101/561985).
