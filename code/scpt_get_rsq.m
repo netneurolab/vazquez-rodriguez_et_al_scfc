@@ -1,8 +1,11 @@
-inpath = 'E:\Projects\Node_SCFC\';
+inpath = fullfile(dirname(dirname(mfilename('fullpath'))));
+
+% add fcn_communicability.m to path
+addpath(fullfile(inpath, 'code'));
 
 % load `Mats` cell array containing group-consensus structural (sc) and
 % functional (fc) networks and 3D coordinates
-load(fullfile(inpath, 'data', 'G1000_SC'), 'Mats');
+load(fullfile(inpath, 'data', 'consensus_conn.mat'), 'Mats');
 
 nscale = 5;             % 5 parcellation scales for the Lausanne atlas
 rsq = cell(nscale, 1);  % vector of nodal R-square values for each parcellation
@@ -11,7 +14,7 @@ rsq = cell(nscale, 1);  % vector of nodal R-square values for each parcellation
 for ii = 1:nscale
     % load group-consensus structural network and binarize | nxn node matrix
     % for more information on methods used to generate group-consensus
-    % structural network see: Betzel et al., (in press), Net Neurosci
+    % structural network see: Betzel et al., (2019), Net Neurosci
     sc = Mats{ii, 1};
     sc(sc > 0) = 1;
 

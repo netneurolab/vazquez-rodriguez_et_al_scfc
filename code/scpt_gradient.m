@@ -1,9 +1,8 @@
-inpath = 'E:\Projects\Node_SCFC\';
-addpath('E:\MATLAB\drtoolbox\techniques');
+inpath = fullfile(dirname(dirname(mfilename('fullpath'))));
 
 % load `Mats` cell array containing group-consensus structural (sc) and
 % functional (fc) networks and 3D coordinates
-load(fullfile(inpath, 'data', 'G1000_SC.mat'), 'Mats');
+load(fullfile(inpath, 'data', 'consensus_conn.mat'), 'Mats');
 
 % load node-wise R-square values (see 'scpt_get_rsq.m')
 load(fullfile(inpath, 'results', 'rsq.mat'), 'rsq');
@@ -34,7 +33,7 @@ x = x * -1;
 % plot relationship between gradient (x) and R-square (y)
 figure;
 y = rsq{ii};
-[rho, pval] = corr(x, y);
+[rho, pval] = corr(x, y, 'Type', 'Spearman');
 lm = fitlm(x, y);
 xhat = linspace(min(x), max(x), 100);
 yhat = lm.Coefficients.Estimate(1) + (lm.Coefficients.Estimate(2) * xhat);
@@ -43,5 +42,3 @@ scatter(x, y, '.'); hold on
 plot(xhat, yhat)
 title(['rho = ' num2str(rho) ', p = ' num2str(pval)]);
 axis square
-
-
