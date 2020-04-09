@@ -4,7 +4,7 @@
 
 This repository contains processing scripts in support of the preprint:
 
-Vázquez-Rodríguez, B., Suárez, L. E., Shafiei, G., Markello, R. D., Paquola, C., Hagmann, P., van den Heuvel, M. P., Bernhardt, B. C., Spreng, R. N., Mišić, B. (2019). Gradients of structure-function tethering across neocortex. *bioRxiv*, 561985. [https://doi.org/10.1101/561985](https://doi.org/10.1101/561985).
+Vázquez-Rodríguez, B., Suárez, L. E., Markello, R. D., Shafiei, G., Paquola, C., Hagmann, P., van den Heuvel, M. P., Bernhardt, B. C., Spreng, R. N., & Mišić, B. (2019). Gradients of structure-function tethering across neocortex. _Proceedings of the National Academy of Sciences_, _116_(42), 21219-21227. [https://doi.org/10.1073/pnas.1903403116](https://doi.org/10.1073/pnas.1903403116).
 
 ## Environment
 
